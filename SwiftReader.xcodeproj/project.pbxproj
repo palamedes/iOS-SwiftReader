@@ -19,6 +19,7 @@
 		4EAA7CC91BAC813F000B6E79 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA7CC81BAC813F000B6E79 /* FeedModel.swift */; settings = {ASSET_TAGS = (); }; };
 		4EAA7CCB1BAC8721000B6E79 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA7CCA1BAC8721000B6E79 /* ArticleModel.swift */; settings = {ASSET_TAGS = (); }; };
 		4EAA7CCD1BAC93AF000B6E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA7CCC1BAC93AF000B6E79 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4EAA7CCF1BB444D1000B6E79 /* AddFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA7CCE1BB444D1000B6E79 /* AddFeedViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		4EAA7CC81BAC813F000B6E79 /* FeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
 		4EAA7CCA1BAC8721000B6E79 /* ArticleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 		4EAA7CCC1BAC93AF000B6E79 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4EAA7CCE1BB444D1000B6E79 /* AddFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				4EAA7C911BAB5726000B6E79 /* AppDelegate.swift */,
 				4EAA7C9B1BAB5726000B6E79 /* Assets.xcassets */,
 				4EAA7C9D1BAB5726000B6E79 /* LaunchScreen.storyboard */,
+				4EAA7CCE1BB444D1000B6E79 /* AddFeedViewController.swift */,
 				4EAA7CCC1BAC93AF000B6E79 /* Main.storyboard */,
 				4EAA7CA01BAB5726000B6E79 /* Info.plist */,
 				4EAA7CC81BAC813F000B6E79 /* FeedModel.swift */,
@@ -272,6 +275,7 @@
 			files = (
 				4EAA7CC31BAB7AC4000B6E79 /* FeedsViewControllerTableViewController.swift in Sources */,
 				4EAA7CC91BAC813F000B6E79 /* FeedModel.swift in Sources */,
+				4EAA7CCF1BB444D1000B6E79 /* AddFeedViewController.swift in Sources */,
 				4EAA7C9A1BAB5726000B6E79 /* SwiftReader.xcdatamodeld in Sources */,
 				4EAA7CC51BAB7C40000B6E79 /* ArticlesTableViewController.swift in Sources */,
 				4EAA7CC71BAB7CA2000B6E79 /* WebViewController.swift in Sources */,
