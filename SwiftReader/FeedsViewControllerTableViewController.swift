@@ -26,18 +26,26 @@ class FeedsViewControllerTableViewController: UITableViewController, NSXMLParser
     override func viewDidLoad() {
         super.viewDidLoad()
       
-        feedUrl = "https://developer.apple.com/news/rss/news.rss"
-//        feedUrl = "http://www.randomstringofwords.com/build-log/feed.xml"
+        addNewFeed("https://developer.apple.com/news/rss/news.rss")
+    }
+
+    func addNewFeed(url: String) {
+        feedUrl = url
         let url:NSURL = NSURL(string: feedUrl)!
         
         parser = NSXMLParser(contentsOfURL: url)!
         parser.delegate = self
         parser.parse()
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func retrieveNewFeed(segue: UIStoryboardSegue) {
+    
     }
     
     // NSXMLParser Delegate
@@ -48,6 +56,7 @@ class FeedsViewControllerTableViewController: UITableViewController, NSXMLParser
         if elementName == "channel" {
             feedTitle = ""
             feedUrl = ""
+            articles = []
             parsingChannel = true
         }
         else if elementName == "item" {

@@ -80,9 +80,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENH-oH-rq7">
+                                <rect key="frame" x="188" y="193" width="48" height="30"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <segue destination="UXI-bi-xhC" kind="unwind" unwindAction="retrieveNewFeed:" id="D7y-Mx-9TB"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZU-DF-Qn7">
-                                <rect key="frame" x="172" y="187" width="30" height="30"/>
+                                <rect key="frame" x="139" y="193" width="30" height="30"/>
                                 <state key="normal" title="Add"/>
+                                <connections>
+                                    <segue destination="UXI-bi-xhC" kind="unwind" unwindAction="retrieveNewFeed:" id="8y3-GC-YBe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -93,8 +103,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sDj-ts-Rcm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="UXI-bi-xhC" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="130.5" y="-296.5"/>
+            <point key="canvasLocation" x="-39.5" y="-296.5"/>
         </scene>
         <!--Articles-->
         <scene sceneID="nEc-UF-3DO">
